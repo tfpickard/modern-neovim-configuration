@@ -52,8 +52,8 @@ require("lazy").setup({
 	load_plugin_config("nvim-treesitter/nvim-treesitter", "plugin/nvim-treesitter"),
 	-- rainbow brackets
 	load_plugin_config("HiPhish/rainbow-delimiters.nvim", "plugin/rainbow-delimiters"),
+    load_plugin_config("m-demare/hlargs.nvim", "plugin/hlargs"),
 	-- highlight args
-	load_plugin_config("m-demare/hlargs.nvim", "plugin/hlargs"),
 	-- better matchup
 	load_plugin_config("andymass/vim-matchup", "plugin/vim-matchup"),
 	-- auto complete tag in html
@@ -65,7 +65,7 @@ require("lazy").setup({
 	-- quickly modify surround char
 	load_plugin_config("kylechui/nvim-surround", "plugin/nvim-surround"),
 	-- highlights cursor word
-	load_plugin_config("echasnovski/mini.cursorword", "plugin/cursorword"),
+	-- load_plugin_config("echasnovski/mini.cursorword", "plugin/cursorword"),
 	-- debug
 	load_plugin_config("mfussenegger/nvim-dap", "plugin/nvim-dap"),
 	-- unit test
@@ -92,7 +92,7 @@ require("lazy").setup({
 	-- highlight current n
 	load_plugin_config("rktjmp/highlight-current-n.nvim", "plugin/highlight-current-n"),
 	-- pretty ui
-	load_plugin_config("folke/noice.nvim", "plugin/noice"),
+	-- load_plugin_config("folke/noice.nvim", "plugin/noice"),
 	load_plugin_config("stevearc/dressing.nvim", "plugin/dressing"),
 	-- divider line
 	load_plugin_config("niuiic/divider.nvim", "plugin/divider"),
@@ -151,7 +151,7 @@ require("lazy").setup({
 	-- shot code
 	load_plugin_config("niuiic/code-shot.nvim", "plugin/code-shot"),
 	-- animate cursor
-	load_plugin_config("sphamba/smear-cursor.nvim", "plugin/smear-cursor"),
+	-- load_plugin_config("sphamba/smear-cursor.nvim", "plugin/smear-cursor"),
 	-- manage deps
 	load_plugin_config("niuiic/deps.nvim", "plugin/deps"),
 	-- buffer manager
